@@ -1,7 +1,4 @@
 Git and Shell Commands
-Initialize git
-git init
-
 Check Git status
 git status
 
@@ -24,7 +21,9 @@ Restore a file
 git restore hello.sh
 
 Set Git configuration for the user
-git config --user name "dipakfadatare" git config --global user.name "dipakfadatare" git config --global user.mail "fadataredipak@gmail.com"
+git config --user name "dipakfadatare"
+git config --global user.name "dipakfadatare"
+git config --global user.mail "fadataredipak@gmail.com"
 
 Edit a file using vim
 vi hello.sh
@@ -39,7 +38,9 @@ View command history
 history
 
 Create a new branch and switch between branches
-git checkout -b dev git checkout master git checkout dev
+git checkout -b dev
+git checkout master
+git checkout dev
 
 View Git log
 git log
@@ -49,3 +50,9 @@ git switch dev
 
 Check current branches
 git branch
+
+
+
+
+
+
